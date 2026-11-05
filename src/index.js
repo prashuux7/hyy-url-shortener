@@ -80,7 +80,7 @@ export default {
    }
   }
 
-  if(request.method==="GET" && /^\\/[a-zA-Z0-9]{7}$/.test(url.pathname)){
+  if(request.method==="GET" && /^\/[a-zA-Z0-9]{7}$/.test(url.pathname)){
    const code=url.pathname.slice(1);
    const link=await env.DB.prepare(
     "SELECT original_url FROM links WHERE code=?"
