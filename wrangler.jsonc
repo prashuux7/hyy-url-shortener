@@ -1,5 +1,12 @@
 {
   "name": "hyy-url-shortener",
   "main": "src/index.js",
-  "compatibility_date": "2026-11-05"
+  "compatibility_date": "2026-11-05",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hyy-url-db",
+      "database_id": "8f2de410-9347-47a1-91de-e850b5ff31d6"
+    }
+  ]
 }
